@@ -1,4 +1,4 @@
-#Lines 6-12 are commented to make a cleaner unittest module.  
+#Lines 6-12 are commented to make cleaner testing modules.  
 #They can be uncommented for this module to work individually.
 
 def isPalindrome(string):

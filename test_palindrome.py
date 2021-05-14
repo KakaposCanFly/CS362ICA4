@@ -4,15 +4,15 @@ import palindrome
 s = input("Please enter a string: ")
 
 class Testing(unittest.TestCase):
-    def test_isPalindrome(self):    #guaranteed success
+    def test_isPalindrome(self):    #test guaranteed to pass
         result = palindrome.isPalindrome("racecar")
         self.assertTrue(result)
         
-    def test_isPalindrome2(self):   #guaranteed failure
+    def test_isPalindrome2(self):   #test guaranteed to fail
         result = palindrome.isPalindrome("kakapos")
         self.assertTrue(result)
 
-    def test_isPalindrome3(self):   #pass or fail depending on input
+    def test_isPalindrome3(self):   #test will fail or pass depending on user input
         result = palindrome.isPalindrome(s)
         self.assertTrue(result)
 
